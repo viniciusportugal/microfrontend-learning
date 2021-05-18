@@ -22,9 +22,15 @@ registerApplication({
 });
 
 registerApplication({
-  name: "@viniciusport/react-parcel",
-  app: () => System.import("@viniciusport/react-parcel"),
-  activeWhen: ["/react-parcel"],
+  name: "@viniciusport/react-route",
+  app: () => System.import("@viniciusport/react-route"),
+  activeWhen: (location) => location.pathname === "/react-route",
+});
+
+registerApplication({
+  name: "@viniciusport/utils",
+  app: () => System.import("@viniciusport/utils"),
+  activeWhen: (location) => location.pathname === "/utils",
 });
 
 start({
