@@ -1,12 +1,11 @@
-  
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 const App = ({ name }) => {
-  const [counter, updateCounter] = useState(0)
+  const [counter, updateCounter] = useState(0);
 
-  const handleChange = type => {
-    updateCounter(oldCounter => oldCounter + type)
-  }
+  const handleChange = (type) => {
+    updateCounter((oldCounter) => oldCounter + type);
+  };
 
   return (
     <>
@@ -15,7 +14,7 @@ const App = ({ name }) => {
       <button onClick={() => handleChange(-1)}>Decrement</button>
       <button onClick={() => handleChange(1)}>Increment</button>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

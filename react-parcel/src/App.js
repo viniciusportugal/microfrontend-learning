@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from "react";
+import { listenEvent } from "@viniciusport/utils";
 
-const App = ({ name }) => {
+const App = () => {
   const [tasks, updateTasks] = useState([]);
 
   useEffect(() => {
-    window.addEventListener(
-      "@viniciusport/react-route/todo/add-task",
-      (event) => {
-        updateTasks((oldTasks) => [...oldTasks, event.detail]);
-      }
-    );
+    listenEvent("@viniciusport/react-route/todo/add-task", (event) => {
+      updateTasks((oldTasks) => [...oldTasks, event.detail]);
+    });
   }, []);
 
   return (

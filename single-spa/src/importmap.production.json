@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "@viniciusport/root-config": "https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/viniciusport-root-config.js",
+    "@viniciusport/react-single": "https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/viniciusport-react-single.js",
+    "@viniciusport/react-multiples": "https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/viniciusport-react-multiples.js",
+    "@viniciusport/react-lazy": "https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/viniciusport-react-lazy.js",
+    "@viniciusport/react-parcel": "https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/viniciusport-react-parcel.js",
+    "@viniciusport/react-route": "https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/viniciusport-react-route.js",
+    "@viniciusport/utils": "https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/viniciusport-utils.js",
+    "@viniciusport/react-header": "https://video-implementando-micro-front-end-react-single-spa.nyc3.digitaloceanspaces.com/viniciusport-react-header.js"
+  }
+}

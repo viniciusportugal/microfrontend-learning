@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "@viniciusport/root-config": "http://localhost:9000/viniciusport-root-config.js",
+    "@viniciusport/react-single": "http://localhost:8500/viniciusport-react-single.js",
+    "@viniciusport/react-multiples": "http://localhost:8500/viniciusport-react-multiples.js",
+    "@viniciusport/react-lazy": "http://localhost:8500/viniciusport-react-lazy.js",
+    "@viniciusport/react-parcel": "http://localhost:8501/viniciusport-react-parcel.js",
+    "@viniciusport/react-route": "http://localhost:8500/viniciusport-react-route.js",
+    "@viniciusport/utils": "http://localhost:8600/viniciusport-utils.js",
+    "@viniciusport/react-header": "http://localhost:8700/viniciusport-react-header.js"
+  }
+}
